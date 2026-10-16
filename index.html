@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="hi-Latn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e7">
+  <meta name="description" content="Kaylee ke liye ek chhota sa tohfa.">
+  <title>Kaylee ke liye</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header><a id="letter-greeting" class="brand" href="./">Pyaari Kaylee,</a></header>
+  <main>
+    <nav id="trail" aria-label="Tumhari chitthi ke panne"></nav>
+    <section class="chapter" aria-labelledby="title">
+      <div class="story"><p class="eyebrow" id="eyebrow"></p><h1 id="title" tabindex="-1"></h1><p class="description" id="description"></p><div class="task"><p id="instruction"></p><div id="controls"></div><p id="feedback" role="status" aria-live="polite"></p></div><button id="next" class="primary" hidden>Aage <span>→</span></button></div>
+      <div class="field"><div class="scene-top"><span id="location"></span><span>CHHOTE SE NOTES <span id="scene-number"></span></span></div><div id="scene"></div><div class="scene-bottom"><span id="caption"></span><span class="compass">N ↑</span></div></div>
+    </section>
+    <footer><span id="letter-signoff">tumhare liye.</span><button class="text-button" id="restart">Phir se shuru karo ↺</button></footer>
+  </main>
+  <dialog id="reset-dialog"><h2 id="reset-title">Phir se shuru karein?</h2><p id="reset-copy">Isse tumhare jawaab mit jaayenge aur dono tijoriyaan band ho jaayengi.</p><div class="dialog-actions"><button id="cancel-reset">Yahin raho</button><button id="confirm-reset" class="primary">Phir se shuru karo</button></div></dialog>
+  <noscript>Yeh chitthi kholne ke liye JavaScript chalu karo.</noscript>
+</body>
+</html>
